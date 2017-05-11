@@ -1,0 +1,12 @@
+
+*.sqlite
+*.pyc
+env/
+__pycache__/
+.idea/
+test_inputs/
+IAP.egg-info/
+.cache/
+build/
+dist/
+data_storage/

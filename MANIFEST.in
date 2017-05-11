@@ -1,0 +1,18 @@
+include *.txt *.ini *.cfg *.rst
+include *
+exclude *.pyc, .gitignore
+
+recursive-include iap/common *
+recursive-include iap/data_processing *
+recursive-include iap/forecasting *
+recursive-include iap/common/repository *
+recursive-include iap/ui/dist *
+recursive-include iap/ui __init__.py
+
+recursive-exclude .idea *
+recursive-exclude iap/ui/.idea *
+
+
+recursive-exclude tests *
+recursive-exclude iap/ui/node_modules *
+recursive-exclude iap/ui/e2e *
